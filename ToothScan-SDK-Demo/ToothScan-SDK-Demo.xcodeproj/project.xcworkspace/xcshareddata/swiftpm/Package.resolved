@@ -1,5 +1,5 @@
 {
-  "originHash" : "aceddc5b63e2959f60e50307a8c823575cd54e6f3d5217a5c4a9c1875a14136e",
+  "originHash" : "6d77a5be5aadda6c29dba68c782cdaacf22742487d9ec97e7a4749cc3e7acbb6",
   "pins" : [
     {
       "identity" : "moengage-ios-sdk",
@@ -8,6 +8,15 @@
       "state" : {
         "revision" : "026f5ea1cf066272cd250134565bc2d11f1eda7d",
         "version" : "9.17.2"
+      }
+    },
+    {
+      "identity" : "toothscan-sdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/nganesh-gd/Toothscan-SDK",
+      "state" : {
+        "branch" : "Venkat/framework",
+        "revision" : "7cd7c2b7e961d8276562c36978f413812a38b985"
       }
     }
   ],

@@ -6,24 +6,25 @@
 //
 
 import SwiftUI
-import MoEngage0
+import MoEngageSDK
+import toothscan_sdk
 
 struct ContentView: View {
 //    
-//    class Config: ToothScanSDKConfigurable {
-//        var partnerID: String = ""
-//        var partnerSecret: String = ""
-//        var userID: String? = ""
-//        var campaignID = ""
-//        var deviceID: String = ""
-//    }
-//
-//    class Theme: ToothScanThemeable {
-//        var primaryColor = ColorAssets.primary.color
-//        var secondaryColor = ColorAssets.secondary.color
-//        var accentColor = ColorAssets.accent.color
-//        var fontFamily: String? = "Red Hat Text"
-//    }
+    class Config: ToothScanSDKConfigurable {
+        var partnerID: String = ""
+        var partnerSecret: String = ""
+        var userID: String? = ""
+        var campaignID = ""
+        var deviceID: String = ""
+    }
+
+    class Theme: ToothScanThemeable {
+        var primaryColor = ColorAssets.primary.color
+        var secondaryColor = ColorAssets.secondary.color
+        var accentColor = ColorAssets.accent.color
+        var fontFamily: String? = "Red Hat Text"
+    }
 
     
     var body: some View {
