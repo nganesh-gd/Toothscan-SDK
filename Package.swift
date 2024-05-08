@@ -4,17 +4,17 @@
 import PackageDescription
 
 let package = Package(
-    name: "ToothScan-SDK-iOS",
+    name: "ToothScanSDK",
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
-            name: "ToothScan-SDK-iOS",
-            targets: ["toothscan-sdk-ios"]),
+            name: "ToothScanSDK",
+            targets: ["ToothScanSDK"]),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
        
-        .binaryTarget(name: "toothscan-sdk-ios", path: "./Framework/toothscan-sdk-ios.xcframework"),
+        .binaryTarget(name: "ToothScanSDK", path: "./Framework/ToothScanSDK.xcframework"),
     ]
 )
