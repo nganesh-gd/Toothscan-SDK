@@ -11,6 +11,7 @@
 		FE4CB3EF2BE8CB63009B8CF9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4CB3EE2BE8CB63009B8CF9 /* ContentView.swift */; };
 		FE4CB3F12BE8CB65009B8CF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE4CB3F02BE8CB65009B8CF9 /* Assets.xcassets */; };
 		FE4CB3F42BE8CB65009B8CF9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE4CB3F32BE8CB65009B8CF9 /* Preview Assets.xcassets */; };
+		FE4CB4002BEBF62E009B8CF9 /* MoEngage-iOS-SDK in Frameworks */ = {isa = PBXBuildFile; productRef = FE4CB3FF2BEBF62E009B8CF9 /* MoEngage-iOS-SDK */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE4CB4002BEBF62E009B8CF9 /* MoEngage-iOS-SDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +85,9 @@
 			dependencies = (
 			);
 			name = "ToothScan-SDK-Demo";
+			packageProductDependencies = (
+				FE4CB3FF2BEBF62E009B8CF9 /* MoEngage-iOS-SDK */,
+			);
 			productName = "ToothScan-SDK-Demo";
 			productReference = FE4CB3E92BE8CB63009B8CF9 /* ToothScan-SDK-Demo.app */;
 			productType = "com.apple.product-type.application";
@@ -112,6 +117,7 @@
 			);
 			mainGroup = FE4CB3E02BE8CB63009B8CF9;
 			packageReferences = (
+				FE4CB3FE2BEBF62E009B8CF9 /* XCRemoteSwiftPackageReference "MoEngage-iOS-SDK" */,
 			);
 			productRefGroup = FE4CB3EA2BE8CB63009B8CF9 /* Products */;
 			projectDirPath = "";
@@ -358,6 +364,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FE4CB3FE2BEBF62E009B8CF9 /* XCRemoteSwiftPackageReference "MoEngage-iOS-SDK" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/moengage/MoEngage-iOS-SDK.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.17.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FE4CB3FF2BEBF62E009B8CF9 /* MoEngage-iOS-SDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FE4CB3FE2BEBF62E009B8CF9 /* XCRemoteSwiftPackageReference "MoEngage-iOS-SDK" */;
+			productName = "MoEngage-iOS-SDK";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FE4CB3E12BE8CB63009B8CF9 /* Project object */;
 }
