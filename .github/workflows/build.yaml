@@ -1,0 +1,28 @@
+name: Build and Export IPA
+
+on:
+  push:
+    branches:
+      - dev01
+
+jobs:
+  build:
+    runs-on: macos-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Build and Archive App
+        run: |
+          xcodebuild -scheme toothscan-sdk-ios -workspace toothscan-sdk-ios.xcworkspace -configuration Release clean archive -archivePath $PWD/build/toothscan-sdk-ios.xcarchive
+
+      - name: Export IPA
+        run: |
+          xcodebuild -exportArchive -archivePath $PWD/build/toothscan-sdk-ios.xcarchive -exportOptionsPlist ExportOptions.plist -exportPath $PWD/build
+
+      - name: Move IPA to Output Directory
+        run: mv $PWD/build/*.ipa $GITHUB_WORKSPACE
