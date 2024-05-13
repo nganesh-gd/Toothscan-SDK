@@ -1,0 +1,2486 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ToothScanSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ToothScanSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ToothScanSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ToothScanSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ToothScanSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ToothScanSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ToothScanSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NetworkError",
+        "printedName": "NetworkError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "parserError",
+            "printedName": "parserError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ToothScanSDK.NetworkError.Type) -> ToothScanSDK.NetworkError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkError",
+                    "printedName": "ToothScanSDK.NetworkError",
+                    "usr": "s:12ToothScanSDK12NetworkErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ToothScanSDK.NetworkError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkError",
+                        "printedName": "ToothScanSDK.NetworkError",
+                        "usr": "s:12ToothScanSDK12NetworkErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12ToothScanSDK12NetworkErrorO06parserE0yA2CmF",
+            "mangledName": "$s12ToothScanSDK12NetworkErrorO06parserE0yA2CmF",
+            "moduleName": "ToothScanSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "httpStatusCode",
+            "printedName": "httpStatusCode",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ToothScanSDK.NetworkError.Type) -> (Swift.Int) -> ToothScanSDK.NetworkError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int) -> ToothScanSDK.NetworkError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkError",
+                        "printedName": "ToothScanSDK.NetworkError",
+                        "usr": "s:12ToothScanSDK12NetworkErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ToothScanSDK.NetworkError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkError",
+                        "printedName": "ToothScanSDK.NetworkError",
+                        "usr": "s:12ToothScanSDK12NetworkErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12ToothScanSDK12NetworkErrorO14httpStatusCodeyACSicACmF",
+            "mangledName": "$s12ToothScanSDK12NetworkErrorO14httpStatusCodeyACSicACmF",
+            "moduleName": "ToothScanSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "serverAuthError",
+            "printedName": "serverAuthError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ToothScanSDK.NetworkError.Type) -> ToothScanSDK.NetworkError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkError",
+                    "printedName": "ToothScanSDK.NetworkError",
+                    "usr": "s:12ToothScanSDK12NetworkErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ToothScanSDK.NetworkError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NetworkError",
+                        "printedName": "ToothScanSDK.NetworkError",
+                        "usr": "s:12ToothScanSDK12NetworkErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12ToothScanSDK12NetworkErrorO010serverAuthE0yA2CmF",
+            "mangledName": "$s12ToothScanSDK12NetworkErrorO010serverAuthE0yA2CmF",
+            "moduleName": "ToothScanSDK"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkError",
+                "printedName": "ToothScanSDK.NetworkError",
+                "usr": "s:12ToothScanSDK12NetworkErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkError",
+                "printedName": "ToothScanSDK.NetworkError",
+                "usr": "s:12ToothScanSDK12NetworkErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12ToothScanSDK12NetworkErrorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s12ToothScanSDK12NetworkErrorO2eeoiySbAC_ACtFZ",
+            "moduleName": "ToothScanSDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:12ToothScanSDK12NetworkErrorO",
+        "mangledName": "$s12ToothScanSDK12NetworkErrorO",
+        "moduleName": "ToothScanSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ToothScanSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ToothScanSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ToothScanSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ToothScanSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ToothScanSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ToothScanSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ToothScanSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ToothScanSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ToothScanSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ToothScanSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ToothScanSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ToothScanSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ToothScanSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ToothScanSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ToothScanSDKConfigurable",
+        "printedName": "ToothScanSDKConfigurable",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "userID",
+            "printedName": "userID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12ToothScanSDK0aB15SDKConfigurableP6userIDSSSgvp",
+            "mangledName": "$s12ToothScanSDK0aB15SDKConfigurableP6userIDSSSgvp",
+            "moduleName": "ToothScanSDK",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12ToothScanSDK0aB15SDKConfigurableP6userIDSSSgvg",
+                "mangledName": "$s12ToothScanSDK0aB15SDKConfigurableP6userIDSSSgvg",
+                "moduleName": "ToothScanSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : ToothScanSDK.ToothScanSDKConfigurable>",
+                "sugared_genericSig": "<Self where Self : ToothScanSDK.ToothScanSDKConfigurable>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "partnerID",
+            "printedName": "partnerID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12ToothScanSDK0aB15SDKConfigurableP9partnerIDSSvp",
+            "mangledName": "$s12ToothScanSDK0aB15SDKConfigurableP9partnerIDSSvp",
+            "moduleName": "ToothScanSDK",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12ToothScanSDK0aB15SDKConfigurableP9partnerIDSSvg",
+                "mangledName": "$s12ToothScanSDK0aB15SDKConfigurableP9partnerIDSSvg",
+                "moduleName": "ToothScanSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : ToothScanSDK.ToothScanSDKConfigurable>",
+                "sugared_genericSig": "<Self where Self : ToothScanSDK.ToothScanSDKConfigurable>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "partnerSecret",
+            "printedName": "partnerSecret",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12ToothScanSDK0aB15SDKConfigurableP13partnerSecretSSvp",
+            "mangledName": "$s12ToothScanSDK0aB15SDKConfigurableP13partnerSecretSSvp",
+            "moduleName": "ToothScanSDK",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12ToothScanSDK0aB15SDKConfigurableP13partnerSecretSSvg",
+                "mangledName": "$s12ToothScanSDK0aB15SDKConfigurableP13partnerSecretSSvg",
+                "moduleName": "ToothScanSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : ToothScanSDK.ToothScanSDKConfigurable>",
+                "sugared_genericSig": "<Self where Self : ToothScanSDK.ToothScanSDKConfigurable>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "campaignID",
+            "printedName": "campaignID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12ToothScanSDK0aB15SDKConfigurableP10campaignIDSSvp",
+            "mangledName": "$s12ToothScanSDK0aB15SDKConfigurableP10campaignIDSSvp",
+            "moduleName": "ToothScanSDK",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12ToothScanSDK0aB15SDKConfigurableP10campaignIDSSvg",
+                "mangledName": "$s12ToothScanSDK0aB15SDKConfigurableP10campaignIDSSvg",
+                "moduleName": "ToothScanSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : ToothScanSDK.ToothScanSDKConfigurable>",
+                "sugared_genericSig": "<Self where Self : ToothScanSDK.ToothScanSDKConfigurable>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "deviceID",
+            "printedName": "deviceID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12ToothScanSDK0aB15SDKConfigurableP8deviceIDSSvp",
+            "mangledName": "$s12ToothScanSDK0aB15SDKConfigurableP8deviceIDSSvp",
+            "moduleName": "ToothScanSDK",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12ToothScanSDK0aB15SDKConfigurableP8deviceIDSSvg",
+                "mangledName": "$s12ToothScanSDK0aB15SDKConfigurableP8deviceIDSSvg",
+                "moduleName": "ToothScanSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : ToothScanSDK.ToothScanSDKConfigurable>",
+                "sugared_genericSig": "<Self where Self : ToothScanSDK.ToothScanSDKConfigurable>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:12ToothScanSDK0aB15SDKConfigurableP",
+        "mangledName": "$s12ToothScanSDK0aB15SDKConfigurableP",
+        "moduleName": "ToothScanSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ToothScanThemeable",
+        "printedName": "ToothScanThemeable",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "primaryColor",
+            "printedName": "primaryColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12ToothScanSDK0aB9ThemeableP12primaryColor7SwiftUI0F0Vvp",
+            "mangledName": "$s12ToothScanSDK0aB9ThemeableP12primaryColor7SwiftUI0F0Vvp",
+            "moduleName": "ToothScanSDK",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12ToothScanSDK0aB9ThemeableP12primaryColor7SwiftUI0F0Vvg",
+                "mangledName": "$s12ToothScanSDK0aB9ThemeableP12primaryColor7SwiftUI0F0Vvg",
+                "moduleName": "ToothScanSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : ToothScanSDK.ToothScanThemeable>",
+                "sugared_genericSig": "<Self where Self : ToothScanSDK.ToothScanThemeable>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "secondaryColor",
+            "printedName": "secondaryColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12ToothScanSDK0aB9ThemeableP14secondaryColor7SwiftUI0F0Vvp",
+            "mangledName": "$s12ToothScanSDK0aB9ThemeableP14secondaryColor7SwiftUI0F0Vvp",
+            "moduleName": "ToothScanSDK",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12ToothScanSDK0aB9ThemeableP14secondaryColor7SwiftUI0F0Vvg",
+                "mangledName": "$s12ToothScanSDK0aB9ThemeableP14secondaryColor7SwiftUI0F0Vvg",
+                "moduleName": "ToothScanSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : ToothScanSDK.ToothScanThemeable>",
+                "sugared_genericSig": "<Self where Self : ToothScanSDK.ToothScanThemeable>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "accentColor",
+            "printedName": "accentColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12ToothScanSDK0aB9ThemeableP11accentColor7SwiftUI0F0Vvp",
+            "mangledName": "$s12ToothScanSDK0aB9ThemeableP11accentColor7SwiftUI0F0Vvp",
+            "moduleName": "ToothScanSDK",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12ToothScanSDK0aB9ThemeableP11accentColor7SwiftUI0F0Vvg",
+                "mangledName": "$s12ToothScanSDK0aB9ThemeableP11accentColor7SwiftUI0F0Vvg",
+                "moduleName": "ToothScanSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : ToothScanSDK.ToothScanThemeable>",
+                "sugared_genericSig": "<Self where Self : ToothScanSDK.ToothScanThemeable>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "fontFamily",
+            "printedName": "fontFamily",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12ToothScanSDK0aB9ThemeableP10fontFamilySSSgvp",
+            "mangledName": "$s12ToothScanSDK0aB9ThemeableP10fontFamilySSSgvp",
+            "moduleName": "ToothScanSDK",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12ToothScanSDK0aB9ThemeableP10fontFamilySSSgvg",
+                "mangledName": "$s12ToothScanSDK0aB9ThemeableP10fontFamilySSSgvg",
+                "moduleName": "ToothScanSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : ToothScanSDK.ToothScanThemeable>",
+                "sugared_genericSig": "<Self where Self : ToothScanSDK.ToothScanThemeable>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:12ToothScanSDK0aB9ThemeableP",
+        "mangledName": "$s12ToothScanSDK0aB9ThemeableP",
+        "moduleName": "ToothScanSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ToothScanSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ToothScanSDKProtocol",
+        "printedName": "ToothScanSDKProtocol",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(config:theme:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ToothScanSDKConfigurable",
+                "printedName": "any ToothScanSDK.ToothScanSDKConfigurable",
+                "usr": "s:12ToothScanSDK0aB15SDKConfigurableP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any ToothScanSDK.ToothScanThemeable)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ToothScanThemeable",
+                    "printedName": "any ToothScanSDK.ToothScanThemeable",
+                    "usr": "s:12ToothScanSDK0aB9ThemeableP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12ToothScanSDK0aB11SDKProtocolP6config5themexAA0aB15SDKConfigurable_p_AA0aB9Themeable_pSgtKcfc",
+            "mangledName": "$s12ToothScanSDK0aB11SDKProtocolP6config5themexAA0aB15SDKConfigurable_p_AA0aB9Themeable_pSgtKcfc",
+            "moduleName": "ToothScanSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : ToothScanSDK.ToothScanSDKProtocol>",
+            "sugared_genericSig": "<Self where Self : ToothScanSDK.ToothScanSDKProtocol>",
+            "protocolReq": true,
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "displaySurvey",
+            "printedName": "displaySurvey()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12ToothScanSDK0aB11SDKProtocolP13displaySurveyyyF",
+            "mangledName": "$s12ToothScanSDK0aB11SDKProtocolP13displaySurveyyyF",
+            "moduleName": "ToothScanSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : ToothScanSDK.ToothScanSDKProtocol>",
+            "sugared_genericSig": "<Self where Self : ToothScanSDK.ToothScanSDKProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:12ToothScanSDK0aB11SDKProtocolP",
+        "mangledName": "$s12ToothScanSDK0aB11SDKProtocolP",
+        "moduleName": "ToothScanSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ToothScanSDKIOS",
+        "printedName": "ToothScanSDKIOS",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(config:theme:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ToothScanSDKIOS",
+                "printedName": "ToothScanSDK.ToothScanSDKIOS",
+                "usr": "s:12ToothScanSDK0aB6SDKIOSC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ToothScanSDKConfigurable",
+                "printedName": "any ToothScanSDK.ToothScanSDKConfigurable",
+                "usr": "s:12ToothScanSDK0aB15SDKConfigurableP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any ToothScanSDK.ToothScanThemeable)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ToothScanThemeable",
+                    "printedName": "any ToothScanSDK.ToothScanThemeable",
+                    "usr": "s:12ToothScanSDK0aB9ThemeableP"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12ToothScanSDK0aB6SDKIOSC6config5themeAcA0aB15SDKConfigurable_p_AA0aB9Themeable_pSgtKcfc",
+            "mangledName": "$s12ToothScanSDK0aB6SDKIOSC6config5themeAcA0aB15SDKConfigurable_p_AA0aB9Themeable_pSgtKcfc",
+            "moduleName": "ToothScanSDK",
+            "declAttributes": [
+              "AccessControl",
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "displaySurvey",
+            "printedName": "displaySurvey()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12ToothScanSDK0aB6SDKIOSC13displaySurveyyyF",
+            "mangledName": "$s12ToothScanSDK0aB6SDKIOSC13displaySurveyyyF",
+            "moduleName": "ToothScanSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:12ToothScanSDK0aB6SDKIOSC",
+        "mangledName": "$s12ToothScanSDK0aB6SDKIOSC",
+        "moduleName": "ToothScanSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ToothScanSDKProtocol",
+            "printedName": "ToothScanSDKProtocol",
+            "usr": "s:12ToothScanSDK0aB11SDKProtocolP",
+            "mangledName": "$s12ToothScanSDK0aB11SDKProtocolP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ToothScanSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ToothScanSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ToothScanSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ToothScanSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ToothScanSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ToothScanSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ToothScanSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ToothScanSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ToothScanSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ToothScanSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ToothScanSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ToothScanSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ToothScanSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ToothScanSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ToothScanSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ToothScanSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ToothScanSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ToothScanSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ToothScanSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ToothScanSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ToothScanSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ToothScanSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ToothScanSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ToothScanSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "ToothScanSDK"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Desktop\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ToothScanSDK\/IntermediateBuildFilesPath\/ToothScanSDK.build\/Release-iphoneos\/ToothScanSDK.build\/DerivedSources\/resource_bundle_accessor.swift",
+      "kind": "StringLiteral",
+      "offset": 295,
+      "length": 27,
+      "value": "\"ToothScanSDK_ToothScanSDK\""
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Desktop\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ToothScanSDK\/IntermediateBuildFilesPath\/ToothScanSDK.build\/Release-iphoneos\/ToothScanSDK.build\/DerivedSources\/resource_bundle_accessor.swift",
+      "kind": "Array",
+      "offset": 969,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Desktop\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ToothScanSDK\/IntermediateBuildFilesPath\/ToothScanSDK.build\/Release-iphoneos\/ToothScanSDK.build\/DerivedSources\/resource_bundle_accessor.swift",
+      "kind": "StringLiteral",
+      "offset": 1496,
+      "length": 9,
+      "value": "\".bundle\""
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Desktop\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ToothScanSDK\/IntermediateBuildFilesPath\/ToothScanSDK.build\/Release-iphoneos\/ToothScanSDK.build\/DerivedSources\/resource_bundle_accessor.swift",
+      "kind": "StringLiteral",
+      "offset": 1648,
+      "length": 55,
+      "value": "\"unable to find bundle named ToothScanSDK_ToothScanSDK\""
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/Enums\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 162,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/Enums\/Constants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 199,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/Network\/APIClient.swift",
+      "kind": "StringLiteral",
+      "offset": 947,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/Network\/APIConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 171,
+      "length": 31,
+      "value": "\"https:\/\/graphql-demo.mead.io\/\""
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/Theme\/Fonts\/Fonts.swift",
+      "kind": "IntegerLiteral",
+      "offset": 541,
+      "length": 2,
+      "value": "38"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/Theme\/Fonts\/Fonts.swift",
+      "kind": "IntegerLiteral",
+      "offset": 564,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/Theme\/Fonts\/Fonts.swift",
+      "kind": "IntegerLiteral",
+      "offset": 587,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/Theme\/Fonts\/Fonts.swift",
+      "kind": "IntegerLiteral",
+      "offset": 610,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/Theme\/Fonts\/Fonts.swift",
+      "kind": "IntegerLiteral",
+      "offset": 633,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/Theme\/Fonts\/Fonts.swift",
+      "kind": "IntegerLiteral",
+      "offset": 652,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/Theme\/Fonts\/Fonts.swift",
+      "kind": "IntegerLiteral",
+      "offset": 675,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/Theme\/Fonts\/Fonts.swift",
+      "kind": "IntegerLiteral",
+      "offset": 541,
+      "length": 2,
+      "value": "38"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/Theme\/Fonts\/Fonts.swift",
+      "kind": "IntegerLiteral",
+      "offset": 564,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/Theme\/Fonts\/Fonts.swift",
+      "kind": "IntegerLiteral",
+      "offset": 587,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/Theme\/Fonts\/Fonts.swift",
+      "kind": "IntegerLiteral",
+      "offset": 610,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/Theme\/Fonts\/Fonts.swift",
+      "kind": "IntegerLiteral",
+      "offset": 633,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/Theme\/Fonts\/Fonts.swift",
+      "kind": "IntegerLiteral",
+      "offset": 652,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/Theme\/Fonts\/Fonts.swift",
+      "kind": "IntegerLiteral",
+      "offset": 675,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/Theme\/Fonts\/Fonts.swift",
+      "kind": "IntegerLiteral",
+      "offset": 541,
+      "length": 2,
+      "value": "38"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/Theme\/Fonts\/Fonts.swift",
+      "kind": "IntegerLiteral",
+      "offset": 564,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/Theme\/Fonts\/Fonts.swift",
+      "kind": "IntegerLiteral",
+      "offset": 587,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/Theme\/Fonts\/Fonts.swift",
+      "kind": "IntegerLiteral",
+      "offset": 610,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/Theme\/Fonts\/Fonts.swift",
+      "kind": "IntegerLiteral",
+      "offset": 633,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/Theme\/Fonts\/Fonts.swift",
+      "kind": "IntegerLiteral",
+      "offset": 652,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/Theme\/Fonts\/Fonts.swift",
+      "kind": "IntegerLiteral",
+      "offset": 675,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Campaign\/CampaignState.swift",
+      "kind": "StringLiteral",
+      "offset": 159,
+      "length": 8,
+      "value": "\"Photos\""
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Campaign\/CampaignState.swift",
+      "kind": "StringLiteral",
+      "offset": 189,
+      "length": 11,
+      "value": "\"Questions\""
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Campaign\/CampaignState.swift",
+      "kind": "StringLiteral",
+      "offset": 159,
+      "length": 8,
+      "value": "\"Photos\""
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Campaign\/CampaignState.swift",
+      "kind": "StringLiteral",
+      "offset": 189,
+      "length": 11,
+      "value": "\"Questions\""
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Campaign\/CampaignState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 548,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Campaign\/CampaignState.swift",
+      "kind": "BooleanLiteral",
+      "offset": 620,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Campaign\/CampaignState.swift",
+      "kind": "StringLiteral",
+      "offset": 649,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Campaign\/CampaignState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 707,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Campaign\/CampaignState.swift",
+      "kind": "StringLiteral",
+      "offset": 734,
+      "length": 62,
+      "value": "\"Is there any redness in your pet’s gumsas das das das das?\""
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Campaign\/CampaignState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 858,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Campaign\/CampaignState.swift",
+      "kind": "StringLiteral",
+      "offset": 885,
+      "length": 44,
+      "value": "\"Is there any redness in your pet’s gums?\""
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Campaign\/CampaignState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 991,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Campaign\/CampaignState.swift",
+      "kind": "StringLiteral",
+      "offset": 1018,
+      "length": 44,
+      "value": "\"Is there any redness in your pet’s gums?\""
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Campaign\/Components\/NotesView.swift",
+      "kind": "StringLiteral",
+      "offset": 3107,
+      "length": 9,
+      "value": "\"initial\""
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Campaign\/Components\/NotesView.swift",
+      "kind": "StringLiteral",
+      "offset": 3214,
+      "length": 6,
+      "value": "\"SAVE\""
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Campaign\/Components\/NotesView.swift",
+      "kind": "StringLiteral",
+      "offset": 3247,
+      "length": 11,
+      "value": "\"Type Here\""
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Campaign\/Components\/NotesView.swift",
+      "kind": "StringLiteral",
+      "offset": 3282,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Campaign\/Components\/NotesView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3312,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Campaign\/Components\/NotesView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3366,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Campaign\/Components\/NotesView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3423,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Campaign\/Components\/NotesView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3470,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Campaign\/Components\/NotesView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3519,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Campaign\/Components\/NotesView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3569,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Campaign\/Components\/NotesView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3615,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Campaign\/Components\/NotesView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3660,
+      "length": 3,
+      "value": "140"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Campaign\/Components\/NotesView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3712,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Campaign\/Components\/NotesView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3766,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Campaign\/Components\/PhotoUploadView.swift",
+      "kind": "StringLiteral",
+      "offset": 3781,
+      "length": 8,
+      "value": "\"Photos\""
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Campaign\/Components\/PhotoUploadView.swift",
+      "kind": "StringLiteral",
+      "offset": 3817,
+      "length": 11,
+      "value": "\"Questions\""
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Campaign\/Components\/PhotoUploadView.swift",
+      "kind": "StringLiteral",
+      "offset": 3852,
+      "length": 38,
+      "value": "\"Upload 4 photos of the affected area\""
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Campaign\/Components\/PhotoUploadView.swift",
+      "kind": "StringLiteral",
+      "offset": 3913,
+      "length": 19,
+      "value": "\"SAVE AND CONTINUE\""
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Campaign\/Components\/PhotoUploadView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3988,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Campaign\/Components\/PhotoUploadView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4044,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Campaign\/Components\/PhotoUploadView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4094,
+      "length": 2,
+      "value": "40"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Campaign\/Components\/PhotoUploadView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4146,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Campaign\/Components\/PhotoUploadView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4198,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Campaign\/Components\/PhotoUploadView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4250,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Campaign\/Components\/PhotoUploadView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4298,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Campaign\/Components\/PhotoUploadView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4352,
+      "length": 2,
+      "value": "40"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Campaign\/Components\/PhotoUploadView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4410,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Campaign\/Components\/PhotoUploadView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4450,
+      "length": 3,
+      "value": "126"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Campaign\/Components\/PhotoUploadView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4492,
+      "length": 3,
+      "value": "196"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Campaign\/Components\/PhotoUploadView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4534,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Campaign\/Components\/PhotoUploadView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4576,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Campaign\/Components\/PhotoUploadView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4622,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Campaign\/Components\/PhotoUploadView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4668,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Campaign\/Components\/QuestionsView.swift",
+      "kind": "StringLiteral",
+      "offset": 5858,
+      "length": 33,
+      "value": "\"Answer the following questions:\""
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Campaign\/Components\/QuestionsView.swift",
+      "kind": "StringLiteral",
+      "offset": 5920,
+      "length": 67,
+      "value": "\"Any other information you would like to share with us? (optional)\""
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Campaign\/Components\/QuestionsView.swift",
+      "kind": "StringLiteral",
+      "offset": 6014,
+      "length": 21,
+      "value": "\"Add your notes here\""
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Campaign\/Components\/QuestionsView.swift",
+      "kind": "StringLiteral",
+      "offset": 6057,
+      "length": 5,
+      "value": "\"ADD\""
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Campaign\/Components\/QuestionsView.swift",
+      "kind": "StringLiteral",
+      "offset": 6090,
+      "length": 5,
+      "value": "\"Yes\""
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Campaign\/Components\/QuestionsView.swift",
+      "kind": "StringLiteral",
+      "offset": 6122,
+      "length": 4,
+      "value": "\"No\""
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Campaign\/Components\/QuestionsView.swift",
+      "kind": "StringLiteral",
+      "offset": 6155,
+      "length": 22,
+      "value": "\"SUBMIT FOR SCREENING\""
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Campaign\/Components\/QuestionsView.swift",
+      "kind": "StringLiteral",
+      "offset": 6200,
+      "length": 6,
+      "value": "\"EDIT\""
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Campaign\/Components\/QuestionsView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6263,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Campaign\/Components\/QuestionsView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6319,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Campaign\/Components\/QuestionsView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6369,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Campaign\/Components\/QuestionsView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6416,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Campaign\/Components\/QuestionsView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6461,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Campaign\/Components\/QuestionsView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6506,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Campaign\/Components\/QuestionsView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6550,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Campaign\/Components\/QuestionsView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6604,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Campaign\/Components\/QuestionsView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6656,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Campaign\/Components\/QuestionsView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6703,
+      "length": 2,
+      "value": "40"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Campaign\/Components\/QuestionsView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6747,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Campaign\/Components\/QuestionsView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6794,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Campaign\/Components\/QuestionsView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6843,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Campaign\/Components\/QuestionsView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6894,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Campaign\/Components\/QuestionsView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6936,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Campaign\/Components\/QuestionsView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6986,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Campaign\/Components\/QuestionsView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7039,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Campaign\/Components\/QuestionsView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7073,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Components\/ContainerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 883,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Components\/ContainerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 937,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Components\/ContainerView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 985,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Components\/LoadingView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 148,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Components\/LoadingView.swift",
+      "kind": "StringLiteral",
+      "offset": 1601,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Components\/LoadingView.swift",
+      "kind": "StringLiteral",
+      "offset": 1618,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Components\/LoadingView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1688,
+      "length": 3,
+      "value": "360"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Components\/LoadingView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1732,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Components\/LoadingView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1777,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Components\/LoadingView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1821,
+      "length": 2,
+      "value": "40"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Components\/LoadingView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1869,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Components\/LoadingView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1915,
+      "length": 2,
+      "value": "48"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Components\/LoadingView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1960,
+      "length": 3,
+      "value": "208"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Components\/NavigationHeader.swift",
+      "kind": "StringLiteral",
+      "offset": 1704,
+      "length": 7,
+      "value": "\"Close\""
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Components\/NavigationHeader.swift",
+      "kind": "StringLiteral",
+      "offset": 1735,
+      "length": 12,
+      "value": "\"Tooth Scan\""
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Components\/NavigationHeader.swift",
+      "kind": "StringLiteral",
+      "offset": 1770,
+      "length": 6,
+      "value": "\"Back\""
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Components\/NavigationHeader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1818,
+      "length": 2,
+      "value": "18"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Components\/NavigationHeader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1862,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Components\/NavigationHeader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1917,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Components\/NavigationHeader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1966,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Components\/NavigationHeader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2017,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Components\/NavigationHeader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2067,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Components\/PrimaryButtonStyle.swift",
+      "kind": "BooleanLiteral",
+      "offset": 190,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Components\/PrimaryButtonStyle.swift",
+      "kind": "StringLiteral",
+      "offset": 1028,
+      "length": 7,
+      "value": "\"Hello\""
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Components\/PrimaryButtonStyle.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1185,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Components\/PrimaryButtonStyle.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1243,
+      "length": 2,
+      "value": "82"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Components\/PrimaryButtonStyle.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1291,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Components\/PrimaryButtonStyle.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1337,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Components\/PrimaryButtonStyle.swift",
+      "kind": "FloatLiteral",
+      "offset": 1381,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Components\/PrimaryButtonStyle.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1426,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Components\/RoundRectangleBorder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 556,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Components\/RoundRectangleBorder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 605,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Components\/TabBar.swift",
+      "kind": "StringLiteral",
+      "offset": 2014,
+      "length": 5,
+      "value": "\"asd\""
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Components\/TabBar.swift",
+      "kind": "StringLiteral",
+      "offset": 2050,
+      "length": 12,
+      "value": "\"SecondView\""
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Components\/TabBar.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2159,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Components\/TabBar.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2213,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Components\/TabBar.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2262,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Components\/TabBar.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2301,
+      "length": 3,
+      "value": "104"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Components\/TabBar.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2352,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Welcome\/WelcomeState.swift",
+      "kind": "BooleanLiteral",
+      "offset": 216,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Welcome\/WelcomeView.swift",
+      "kind": "StringLiteral",
+      "offset": 3971,
+      "length": 7,
+      "value": "\"Close\""
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Welcome\/WelcomeView.swift",
+      "kind": "StringLiteral",
+      "offset": 4002,
+      "length": 95,
+      "value": "\"Begin by uploading or taking a few clear photos of your pet's oral issue from various angles.\""
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Welcome\/WelcomeView.swift",
+      "kind": "StringLiteral",
+      "offset": 4121,
+      "length": 66,
+      "value": "\"Answer a few questions to help us understand your pet’s needs.\""
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Welcome\/WelcomeView.swift",
+      "kind": "StringLiteral",
+      "offset": 4211,
+      "length": 60,
+      "value": "\"Submit for screening. All the information will be assessed\""
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Welcome\/WelcomeView.swift",
+      "kind": "StringLiteral",
+      "offset": 4278,
+      "length": 39,
+      "value": "\"and recommendations will be provided.\""
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Welcome\/WelcomeView.swift",
+      "kind": "StringLiteral",
+      "offset": 4346,
+      "length": 13,
+      "value": "\"GET STARTED\""
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Welcome\/WelcomeView.swift",
+      "kind": "StringLiteral",
+      "offset": 4381,
+      "length": 3,
+      "value": "\"1\""
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Welcome\/WelcomeView.swift",
+      "kind": "StringLiteral",
+      "offset": 4406,
+      "length": 3,
+      "value": "\"2\""
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Welcome\/WelcomeView.swift",
+      "kind": "StringLiteral",
+      "offset": 4433,
+      "length": 3,
+      "value": "\"3\""
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Welcome\/WelcomeView.swift",
+      "kind": "StringLiteral",
+      "offset": 4467,
+      "length": 23,
+      "value": "\"This won't take long!\""
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Welcome\/WelcomeView.swift",
+      "kind": "StringLiteral",
+      "offset": 4527,
+      "length": 35,
+      "value": "\"Loading all details of the survey\""
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Welcome\/WelcomeView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4611,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Welcome\/WelcomeView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4663,
+      "length": 2,
+      "value": "40"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Welcome\/WelcomeView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4718,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Welcome\/WelcomeView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4769,
+      "length": 2,
+      "value": "40"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Welcome\/WelcomeView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4825,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Welcome\/WelcomeView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4874,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Welcome\/WelcomeView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4932,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Welcome\/WelcomeView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4988,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Welcome\/WelcomeView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5034,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Welcome\/WelcomeView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5080,
+      "length": 2,
+      "value": "56"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Documents\/GitHub\/GD\/ToothScan-SDK-Demo-iOS\/toothscan-sdk-ios\/Sources\/ToothScanSDK\/UI\/Welcome\/WelcomeView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5138,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Desktop\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ToothScanSDK\/IntermediateBuildFilesPath\/ToothScanSDK.build\/Release-iphoneos\/ToothScanSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 634,
+      "length": 15,
+      "value": "\"defaultAccent\""
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Desktop\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ToothScanSDK\/IntermediateBuildFilesPath\/ToothScanSDK.build\/Release-iphoneos\/ToothScanSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 787,
+      "length": 16,
+      "value": "\"defaultPrimary\""
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Desktop\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ToothScanSDK\/IntermediateBuildFilesPath\/ToothScanSDK.build\/Release-iphoneos\/ToothScanSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 945,
+      "length": 18,
+      "value": "\"defaultSecondary\""
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Desktop\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ToothScanSDK\/IntermediateBuildFilesPath\/ToothScanSDK.build\/Release-iphoneos\/ToothScanSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1083,
+      "length": 7,
+      "value": "\"gray1\""
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Desktop\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ToothScanSDK\/IntermediateBuildFilesPath\/ToothScanSDK.build\/Release-iphoneos\/ToothScanSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1212,
+      "length": 8,
+      "value": "\"gray13\""
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Desktop\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ToothScanSDK\/IntermediateBuildFilesPath\/ToothScanSDK.build\/Release-iphoneos\/ToothScanSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1340,
+      "length": 7,
+      "value": "\"gray2\""
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Desktop\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ToothScanSDK\/IntermediateBuildFilesPath\/ToothScanSDK.build\/Release-iphoneos\/ToothScanSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1467,
+      "length": 7,
+      "value": "\"gray4\""
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Desktop\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ToothScanSDK\/IntermediateBuildFilesPath\/ToothScanSDK.build\/Release-iphoneos\/ToothScanSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1594,
+      "length": 7,
+      "value": "\"gray5\""
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Desktop\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ToothScanSDK\/IntermediateBuildFilesPath\/ToothScanSDK.build\/Release-iphoneos\/ToothScanSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1721,
+      "length": 7,
+      "value": "\"gray8\""
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Desktop\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ToothScanSDK\/IntermediateBuildFilesPath\/ToothScanSDK.build\/Release-iphoneos\/ToothScanSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1959,
+      "length": 10,
+      "value": "\"backIcon\""
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Desktop\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ToothScanSDK\/IntermediateBuildFilesPath\/ToothScanSDK.build\/Release-iphoneos\/ToothScanSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2101,
+      "length": 13,
+      "value": "\"closeCircle\""
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Desktop\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ToothScanSDK\/IntermediateBuildFilesPath\/ToothScanSDK.build\/Release-iphoneos\/ToothScanSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2240,
+      "length": 10,
+      "value": "\"editIcon\""
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Desktop\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ToothScanSDK\/IntermediateBuildFilesPath\/ToothScanSDK.build\/Release-iphoneos\/ToothScanSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2374,
+      "length": 9,
+      "value": "\"loading\""
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Desktop\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ToothScanSDK\/IntermediateBuildFilesPath\/ToothScanSDK.build\/Release-iphoneos\/ToothScanSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2509,
+      "length": 10,
+      "value": "\"plusIcon\""
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Desktop\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ToothScanSDK\/IntermediateBuildFilesPath\/ToothScanSDK.build\/Release-iphoneos\/ToothScanSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2661,
+      "length": 18,
+      "value": "\"plusIconDisabled\""
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Desktop\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ToothScanSDK\/IntermediateBuildFilesPath\/ToothScanSDK.build\/Release-iphoneos\/ToothScanSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2815,
+      "length": 15,
+      "value": "\"radioSelected\""
+    },
+    {
+      "filePath": "\/Users\/venkatachalamperumal\/Desktop\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ToothScanSDK\/IntermediateBuildFilesPath\/ToothScanSDK.build\/Release-iphoneos\/ToothScanSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2970,
+      "length": 17,
+      "value": "\"radioUnselected\""
+    }
+  ]
+}
